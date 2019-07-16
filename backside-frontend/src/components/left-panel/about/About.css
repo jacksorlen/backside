@@ -1,0 +1,47 @@
+.about-div {
+  color: #FFFFFF;
+  line-height: 26px;
+  width: 108%;
+  overflow: auto;
+  height: calc(100vh - 371px);
+  margin: 12px 0 12px 0;
+  padding-right: 15px;
+}
+
+.inner-html {
+  margin-right: 12px;
+}
+
+p {
+  margin: 0 0 16px 0;
+  font-size: 23px;
+}
+
+.contacts-div {
+  display: block;
+  margin: 12px 0;
+  width: calc(100% - 12px);
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.contact-div {
+  display: inline-block;
+  position: relative;
+  width: 50%;
+  font-size: 16px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  
+  .about-div {
+    max-width: 94%;
+    overflow: auto;
+    height: auto;
+    margin: 34px 3% 0 3%;
+    padding: 8px 0 4px 0;
+  }
+}

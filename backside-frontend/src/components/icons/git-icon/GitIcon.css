@@ -1,0 +1,16 @@
+.git {
+  display: block;
+  margin: 0 auto;
+  width: 16px;
+}
+
+.git > path {
+  fill: #FFFFFF;
+  cursor: pointer;
+  transition-duration: 0.18s;
+}
+
+.git > path:hover {
+  fill: #2F95E8;
+  cursor: pointer;
+}

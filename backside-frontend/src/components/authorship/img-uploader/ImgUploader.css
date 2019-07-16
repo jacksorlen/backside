@@ -1,0 +1,21 @@
+input {
+  display: none;
+}
+
+.img-uploader-div {
+  position: relative;
+}
+
+.upload-img {
+  width: 100%;
+  max-width: 680px;
+  cursor: pointer;
+}
+
+.img-control-div {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  background-color: #ffffffb0;
+}

@@ -1,0 +1,143 @@
+.background-letter-editor-div {
+  max-height: 100vh;
+  overflow: auto;
+  z-index: 1;
+}
+  
+.letter-editor {
+  position: relative;
+  margin: 6px 5% 120px 5%;
+  max-width: 680px;
+}
+
+#title-input {
+  text-align: center;
+  font-weight: bold;
+  height: 30px;
+  padding: 5px 0px 5px 0px;
+}
+
+.input-authorship-field {
+  font-size: 22px;
+  display: block;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  width: 100%;
+  border: none;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  background-color: initial;
+}
+
+#textarea-input {
+  height: 30px;
+	padding: 5px 0px 5px 0px;
+  resize: none;
+  overflow: auto;
+  font-size: 23px;
+}
+
+#letter-save-div {
+  height: 28px;
+  width: 100%;
+}
+
+.logout-button,
+.save-delete-div > button {
+  background-color: initial;
+  border: none;
+  cursor: pointer;
+  padding: 0px;
+  line-height: normal;
+  margin: 0 auto;
+}
+
+.save-button,
+.delete-button {
+  display: block;
+  font-size: 22px !important;
+}
+
+.dropdown-selector, 
+.save-delete-div,
+.logout-button {
+  display: inline-block;
+  vertical-align: top;
+  height: auto;
+  margin: 0 auto; 
+  width: 33.33333333333333%;
+  text-align: center;
+  bottom: 0;
+}
+
+.control-dropdown-selector,
+.dropdown-placeholder {
+  height: 28px;
+  font-size: 22px !important;
+  cursor: pointer;
+}
+
+.dropdown-placeholder,
+.dropdowns,
+.save-button,
+.logout-button {
+  font-size: 22px !important;
+  cursor: pointer;
+}
+
+.dropdown-placeholder:hover,
+.dropdowns:hover,
+.delete-button:hover,
+.save-button:hover {
+  text-decoration: underline;
+}
+
+.logout-button:hover {
+  color: #FF1EA5;
+}
+
+.popup-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(255, 255, 255, 0.78);
+  z-index: 100;
+}
+
+.popup-context-div {
+  position: fixed;
+  top: 50%;
+  left: calc(50% - 200px);
+  width: 400px;
+  background-color: rgb(25, 27, 32);
+  border-radius: 16px;
+  color: #FFFFFF;
+  z-index: 101;
+  -webkit-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 19px 0px rgba(0,0,0,0.75);
+}
+
+.message {
+  display: block;
+  line-height: 26px;
+  padding: 12px 12px 8px 12px;
+}
+
+.choice-button {
+  display: inline-block;
+  position: relative;
+  width: 18%;
+  margin: 0 16% 8px 16%;
+  padding: 0;
+  border: none;
+  background-color: initial;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.choice-button:hover {
+  color: #2F95E8;
+}

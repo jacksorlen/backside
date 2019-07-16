@@ -1,0 +1,21 @@
+.garbage-logo-svg {
+  display: block;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  height: 40px;
+  width: 40px;
+  fill: #d9d9d9;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.garbage-logo-svg:hover {
+  fill: #000000;
+}
+
+rect {
+  fill: #ffffff;
+  opacity: 0;
+}
+

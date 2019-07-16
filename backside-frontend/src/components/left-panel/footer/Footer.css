@@ -1,0 +1,37 @@
+.footer-div {
+  display: block;
+  position: relative;
+  height: 26px;
+  margin: 0px !important;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 280px;
+}
+
+span {
+  height: 26px;
+  vertical-align: text-top;
+  font-size: 23px;
+  color: #2F95E8;
+  cursor: pointer;
+  transition-duration: 0.18s;
+}
+
+span:hover {
+  color: #40a9ff;
+}
+
+@media screen and (max-width: 768px) {
+  
+  .footer-div {
+    width: 100%;
+    padding: 4px 0 8px 0;
+  }
+
+  span {
+    color: #40a9ff;
+    font-size: 21px;
+  }
+}

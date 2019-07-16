@@ -1,0 +1,56 @@
+* {
+  font-family: "Caveat", Caveat;
+  font-size: 26px;
+}
+
+::selection {
+  background: #ffffff00; /* WebKit/Blink Browsers */
+  color: #40a9ff;
+}
+::-moz-selection {
+  background: #ffffff00; /* Gecko Browsers */
+  color: #40a9ff;
+}
+
+a {
+  outline: 0;
+}
+
+.app-content {
+  margin-top: 64px;   
+}
+
+.react-router-link {
+  text-decoration: none;
+}
+
+.animated {
+  -webkit-animation: animated 1s;
+  -moz-animation:    animated 1s;
+  -o-animation:      animated 1s;
+  animation:         animated 1s;
+}
+
+.hidden {
+  display: none;
+}
+
+@-webkit-keyframes animated {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes animated {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes animated {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes animated {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}

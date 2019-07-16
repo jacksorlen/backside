@@ -1,0 +1,15 @@
+.telegram {
+  display: block;
+  margin: 0 auto;
+  width: 16px;
+}
+
+.telegram > path {
+  fill: #FFFFFF;
+  cursor: pointer;
+  transition-duration: 0.18s;
+}
+
+.telegram > path:hover {
+  fill: #2F95E8;
+}

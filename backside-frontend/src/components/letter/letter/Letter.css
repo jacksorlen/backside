@@ -1,0 +1,58 @@
+.background-letter-div {
+  max-height: 100vh;
+  overflow: auto;
+  z-index: 1;
+}
+
+.letter-div {
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: 680px;
+}
+
+.letter-div > * {
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.letter-title-div {
+  text-align: center;
+  font-weight: bold;
+}
+
+.letter-picture {
+  position: relative;
+  max-height: auto;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+@media screen and (max-width: 768px) {
+  
+  .background-letter-div {
+    display: block;
+    position: relative;
+    max-height: 100%;
+    overflow: auto;
+    width: 100%;
+  }
+
+  .html-text {
+    display: block;
+    max-width: 96%;
+    margin: 0 2% 0 2%;
+  }
+
+  .letter-div {
+    display: block;
+    max-width: 100%;
+    margin: 0 0 0 0;
+  }
+
+  .letter-picture {
+    max-width: 100%;
+    margin: 8px 0 -8px 0;
+  }
+}
