@@ -8,11 +8,6 @@ import "./About.css";
 
 class About extends Component {
 
-  openGitRepos = () => {
-    window.open("https://github.com/annagreille/backside-frontend");
-    window.open("https://github.com/annagreille/backside-backend");
-  }
-
   render() {
     return(
       <div className="about-div animated">
@@ -27,7 +22,9 @@ class About extends Component {
             channel
           </div>
           <div className="contact-div">
-              <GitIcon openGitRepos={ () => this.openGitRepos }/>
+            <a href="https://github.com/annagreille/backside" target="_blank" rel="noopener noreferrer">
+              <GitIcon />
+            </a>
             sorce
           </div>
         </div>

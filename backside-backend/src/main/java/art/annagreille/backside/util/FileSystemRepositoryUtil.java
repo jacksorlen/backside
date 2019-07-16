@@ -12,7 +12,7 @@ public class FileSystemRepositoryUtil {
 
     private static volatile FileSystemRepositoryUtil fileSystemRepositoryUtil;
 
-    private final String repositoryPath = "./repository/backside";
+    private final String repositoryPath = "./repository";
 
     private FileSystemRepositoryUtil() {
         makeRepository(repositoryPath);
