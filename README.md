@@ -74,8 +74,8 @@ CREATE TABLE letters (
     state VARCHAR(6) NOT NULL
 );
 ```
-
-<style type='text/css'>
+(setq markdown-xhtml-header-content
+"<style type='text/css'>
   a {
     outline: 0;
     text-decoration: none;
@@ -98,4 +98,4 @@ CREATE TABLE letters (
     font-size: 16px;
     font-weight: bold;
   }
-</style>
+</style>")
