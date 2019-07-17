@@ -20,7 +20,7 @@ class Letter extends Component {
     isLoading: true
   }
 
-  componentWillMount = async () => {
+  componentDidMount = async () => {
     await getPublicLetterById(parseInt(this.props.match.params.id))
       .then(response => {
         const { id, title, dateOfPublication, htmlText, pictureName } = response.data;
@@ -36,12 +36,12 @@ class Letter extends Component {
   }
 
   render() {
-
+    
     const { title, dateOfPublication, htmlText, pictureURL, isLoading } = this.state;
     
     return(
       <div className="background-letter-div">
-        <div className={ `letter-div animated` }>
+        <div className="letter-div animated">
           {isLoading ? <AsyncLoader /> : 
             <div>
               <div className="letter-title-div">

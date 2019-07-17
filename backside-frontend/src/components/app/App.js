@@ -18,7 +18,7 @@ class App extends Component {
     isAuthenticated: false
   }
 
-  componentDidMount = async () => {
+  componentWillReceiveProps = async () => {
     await checkAuth()
       .then(response => {
         if(response.status === 200) {
@@ -50,6 +50,7 @@ class App extends Component {
   }
 
   render() {
+    console.log("app render");
     return (
       <Router>
         <div>
