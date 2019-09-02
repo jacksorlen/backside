@@ -48,9 +48,7 @@ class Letter extends Component {
                 { title }
               </div>
               <LetterDate date={ dateOfPublication } />
-              <div className="html-text">
-                { htmlText }
-              </div>
+              <div className="html-text" dangerouslySetInnerHTML={ {__html: htmlText} } />
               <img
                 className="letter-picture"
                 src={ pictureURL }

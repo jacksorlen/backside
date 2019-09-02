@@ -50,7 +50,6 @@ class App extends Component {
   }
 
   render() {
-    console.log("app render");
     return (
       <Router>
         <div>

@@ -2,7 +2,7 @@
 .draft-title,
 .new-letter-title,
 .selected-title-div {
-  font-size: 23px;
+  font-size: 24px;
   cursor: pointer;
   transition-duration: 0.21s;
 }

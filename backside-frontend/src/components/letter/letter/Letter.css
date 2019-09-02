@@ -21,12 +21,17 @@
   font-weight: bold;
 }
 
+.letter-paragraph {
+  margin: 0 0 0 0;
+  text-indent: 28px;
+}
+
 .letter-picture {
   position: relative;
   max-height: auto;
   max-width: 100%;
   height: auto;
-  width: auto\9;
+  width: auto;
 }
 
 @media screen and (max-width: 768px) {
