@@ -16,13 +16,13 @@ class About extends Component {
         </div>
         <div className="contacts-div">
           <div className="contact-div">
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a href="https://t.me/annagreille" target="_blank" rel="noopener noreferrer">
               <TelegramIcon />
             </a>
-            channel
+            author
           </div>
           <div className="contact-div">
-            <a href="https://github.com/annagreille/backside" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/jacksorlen/backside" target="_blank" rel="noopener noreferrer">
               <GitIcon />
             </a>
             sorce

@@ -23,7 +23,19 @@
 
 .letter-paragraph {
   margin: 0 0 0 0;
-  text-indent: 28px;
+  text-indent: 42px;
+  text-align: justify;
+}
+
+.signature {
+  float: right;
+  position: initial;
+  display: block;
+  margin: 2px 0 12px 0;
+}
+
+.signature > p {
+  margin: 0 0 -4px 0;
 }
 
 .letter-picture {
@@ -54,6 +66,10 @@
     display: block;
     max-width: 100%;
     margin: 0 0 0 0;
+  }
+
+  .signature {
+    margin: 2px 0 2px 0;
   }
 
   .letter-picture {

@@ -7,11 +7,12 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.2.0.M4</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/>
 	</parent>
+	
 	<groupId>art.annagreille</groupId>
 	<artifactId>backside-backend</artifactId>
-	<version>0.1</version>
+	<version>1.0.0</version>
 	<name>backside-backend</name>
 	<description></description>
 
@@ -107,7 +108,7 @@
 		</dependency>
 	</dependencies>
 
-		<build>
+	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
